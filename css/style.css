@@ -442,11 +442,71 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#584cff', end
     right: 204px;
 }
 
-
-.page-software dt {
-    font-weight: 700;;
+.page-software {
+    height: 1000px;
+    background-image: url(../img/bg5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+.bg-screen2 {
+    background-image: url(../img/screen2.png);
+    background-repeat: no-repeat;
+    width: 1180px;
+    height: 800px;
+}
+
+.page-software-icon {
+    display: block;
+    background-image: url(../img/icon.png);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 87px;
+}
+
+.page-software .title-h2 {
+    max-width: 770px;
+    margin-top: 12px;
+    margin-bottom: 26px;
+} 
+
+.page-software-list {
+    overflow-y: scroll;
+    height: 200px;
+    width: 500px;
+}
+
+.page-software-list::-webkit-scrollbar {
+    width: 4px;
+    border-radius: 6px;
+    background-color: #85c8ff;
+}
+
+.page-software-list::-webkit-scrollbar-thumb {
+    background: #00bffe;
+}
+
+.page-software-list dt {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.page-software-list dd {
+    margin-left: 0;
+    margin-bottom: 50px;
+    font-size: 14px;
+}
+
+.page-software-flex {
+    display: flex;
+    justify-content: flex-end;
+    padding: 100px 0;
+
+}
+
+.pgsftwr {
+    flex-basis: 50%;
+}
 
 .page-stat h2 span {
     display: block;
